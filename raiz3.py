@@ -1,0 +1,10 @@
+import math
+num = int(input("Digite um número real: "))
+a = math.fabs(num)
+b =  math.trunc(num)
+c = math.sqrt(num)
+d = math.factorial (num)
+print(f"O valor absoluto de {num} é {a}")
+print(f"A parte inteira de {num} é {b}")
+print(f"A raiz quadrada de {num} é {c}")
+print(f"O fatorial da parte inteira de {num} é {d}")
